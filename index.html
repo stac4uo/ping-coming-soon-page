@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Libre+Franklin:ital,wght@0,300;0,600;0,700;1,300;1,600;1,700&display=swap"
+    rel="stylesheet">
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <script src="./js/script.js" defer></script>
+  <link rel="stylesheet" href="output.css">
+
+
+  <title>Frontend Mentor | Ping coming soon page</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+
+</head>
+
+
+<body
+  class="text-[20px] w-full  mx-auto mb-32 flex flex-col justify-center items-center font-sans  text-VeryDarkBlue text-2xl sm:w-[70%] md:w-[70%] lg:w-[40%]">
+
+  <div class="mt-20 mb-10 ">
+    <img src="./images/logo.svg" class="h-5" alt="">
+  </div>
+  <h1 class="text-PaleBlue text-3xl ">We are launching <span class="text-black font-bold">soon!</span> </h1>
+
+  <p class="text-base mb-10">Subscribe and get notified </p>
+
+
+  <form novalidate name="myForm" onsubmit="return validateForm()" method="post"
+    class="flex flex-col md:flex-row justify-center items-center md:items-start w-full gap-4">
+
+    <div class="w-full md:w-[80%] flex flex-col items-center md:justify-start">
+      <input type="text/email" id="email" name="email" placeholder="Your email address..."
+        class=" py-2 px-4 mb-4 text-sm text-center  border  border-PaleBlue  rounded-full  placeholder:text-PaleBluem w-[80%] md:w-full">
+
+
+      <div class="form-error-text w-[70%] text-center  text-[12px] text-LightRed  md:text-left" aria-hidden="false">
+        Please provide a valid email address</div>
+    </div>
+    <button type="submit"
+      class="py-2 px-4 w-[80%]  bg-BlueMain text-white text-base border rounded-full shadow-lg placeholder-colors hover:bg-PaleBlue md:w-[30%]">Notify
+      Me</button>
+  </form>
+
+
+
+
+
+  <div class="h-[40vh] mt-20 flex  justify-center">
+    <img src="./images/illustration-dashboard.png" class="w-[90%]" alt="">
+  </div>
+
+
+  <section class="flex justify-around  mt-32 mb-5 w-[40%]  ">
+
+    <img src="./images/logo-facebook.webp" class="minLogo" alt="logo-facebook">
+    <img src="./images/logo-instagram.svg" class="minLogo" alt="logo-instagram">
+    <img src="./images/logo-twitter.svg" class="minLogo" alt="logo-twitter">
+
+
+
+  </section>
+  <p class="text-Gray text-sm">&copy; Copyright Ping. All rights reserved.</p>
+
+  <footer class="mt-24">
+    <p class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+      Coded by <a href="#">stac4uo</a>.
+    </p>
+  </footer>
+</body>
+<img src="" alt="">
+
+</html>
